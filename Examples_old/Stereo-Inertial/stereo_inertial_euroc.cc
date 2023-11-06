@@ -30,7 +30,7 @@
 #include<System.h>
 #include "ImuTypes.h"
 #include "Optimizer.h"
-
+#define COMPILEDWITHC11 1
 using namespace std;
 
 void LoadImages(const string &strPathLeft, const string &strPathRight, const string &strPathTimes,

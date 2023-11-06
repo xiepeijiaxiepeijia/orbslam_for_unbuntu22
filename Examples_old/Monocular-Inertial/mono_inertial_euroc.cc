@@ -27,7 +27,7 @@
 
 #include<System.h>
 #include "ImuTypes.h"
-
+#define COMPILEDWITHC11 1
 using namespace std;
 
 void LoadImages(const string &strImagePath, const string &strPathTimes,

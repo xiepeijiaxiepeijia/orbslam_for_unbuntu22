@@ -34,6 +34,7 @@
 
 #include <System.h>
 
+#define COMPILEDWITHC11 1
 using namespace std;
 
 bool b_continue_session;

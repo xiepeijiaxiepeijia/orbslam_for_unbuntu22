@@ -28,6 +28,7 @@
 #include"System.h"
 #include "Converter.h"
 
+#define COMPILEDWITHC11 1
 using namespace std;
 
 void LoadImages(const string &strImagePath, const string &strPathTimes,

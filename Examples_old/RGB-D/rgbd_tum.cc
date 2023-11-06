@@ -25,6 +25,7 @@
 
 #include<System.h>
 
+#define COMPILEDWITHC11 1
 using namespace std;
 
 void LoadImages(const string &strAssociationFilename, vector<string> &vstrImageFilenamesRGB,

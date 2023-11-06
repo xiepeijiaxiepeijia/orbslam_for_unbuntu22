@@ -34,7 +34,7 @@
 #include "ImuTypes.h"
 
 using namespace std;
-
+#define COMPILEDWITHC11 1
 bool b_continue_session;
 
 void exit_loop_handler(int s){
